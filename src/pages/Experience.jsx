@@ -5,7 +5,7 @@ import Icon from '../components/Icon'
 export default function Experience() {
     return (
         <React.Fragment>
-            <div>
+            <div className='experience'>
                 <h1 className='lg:text-[90px] text-[60px] font-bold uppercase tracking-wider leading-none'>5 years of</h1>
                 <h1 className='lg:text-[90px] text-[60px] text-(--gray-20) font-bold uppercase tracking-wider leading-none'>Experience</h1>
             </div>

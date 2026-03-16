@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutMe() {
     return (
         <React.Fragment>
-            <div>
+            <div id='aboutMe'>
                 <h1 className='lg:text-[90px] text-[60px] font-bold uppercase tracking-wider leading-none'>Full Stack</h1>
                 <h1 className='lg:text-[90px] text-[60px] text-(--gray-20) font-bold uppercase tracking-wider leading-none'>Developer</h1>
             </div>

@@ -9,36 +9,42 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #151312;
 
-
   /* colors */
-  --black: #151312;
-  --dark-gray: #6A6B6E;
-  --green: #78A807;
-  --gray: #998F8F;
+  --dark-gray: #6a6b6e;
+  --green: #78a807;
+  --gray: #998f8f;
 
   /* gray scale */
-  --soft-gray: #B6B4BD;
-  --gray-10: #B6B4BD1A;
-  --gray-20: #B6B4BD33;
-  --gray-30: #B6B4BD4D;
-  --gray-40: #B6B4BD66;
-  --gray-50: #B6B4BD80;
+  --soft-gray: #b6b4bd;
+  --gray-10: #b6b4bd1a;
+  --gray-20: #b6b4bd33;
+  --gray-30: #b6b4bd4d;
+  --gray-40: #b6b4bd66;
+  --gray-50: #b6b4bd80;
 
   /* orange */
-  --orange: #CF5525;
-  --orange-10: #CF55251A;
-  --orange-20: #CF552533;
-  --orange-30: #CF55254D;
-  --orange-40: #CF552566;
-  --orange-50: #CF552580;
+  --orange: #cf5525;
+  --orange-10: #cf55251a;
+  --orange-20: #cf552533;
+  --orange-30: #cf55254d;
+  --orange-40: #cf552566;
+  --orange-50: #cf552580;
 
   /* white */
-  --white: #FFFFFF;
-  --white-10: #FFFFFF1A;
-  --white-20: #FFFFFF33;
-  --white-30: #FFFFFF4D;
-  --white-40: #FFFFFF66;
-  --white-50: #FFFFFF80;
+  --white: #ffffff;
+  --white-10: #ffffff1a;
+  --white-20: #ffffff33;
+  --white-30: #ffffff4d;
+  --white-40: #ffffff66;
+  --white-50: #ffffff80;
+
+  /* black */
+  --black: #151312;
+  --black-10: #1513121a;
+  --black-20: #15131233;
+  --black-30: #1513124d;
+  --black-40: #15131266;
+  --black-50: #15131280;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

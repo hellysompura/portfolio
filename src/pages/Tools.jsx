@@ -4,7 +4,7 @@ import { TOOLS_DATA } from '../utils/CommonData'
 export default function Tools() {
     return (
         <React.Fragment>
-            <div>
+            <div id='skills'>
                 <h1 className='lg:text-[90px] text-[60px] font-bold uppercase tracking-wider leading-none'>Tools</h1>
                 <h1 className='lg:text-[90px] text-[60px] text-(--gray-20) font-bold uppercase tracking-wider leading-none'>I Use</h1>
             </div>

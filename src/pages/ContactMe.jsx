@@ -6,7 +6,7 @@ import PrimaryButton from "../components/PrimaryButton";
 export default function ContactMe() {
   return (
     <React.Fragment>
-      <div>
+      <div id="contact">
         <h1 className="lg:text-[90px] text-[60px] font-bold uppercase tracking-wider leading-none">
           let's
         </h1>
