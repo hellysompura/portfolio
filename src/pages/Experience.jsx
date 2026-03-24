@@ -5,14 +5,14 @@ import Icon from '../components/Icon'
 export default function Experience() {
     return (
         <React.Fragment>
-            <div className='experience'>
+            <div id='experience'>
                 <h1 className='lg:text-[90px] text-[60px] font-bold uppercase tracking-wider leading-none'>5 years of</h1>
                 <h1 className='lg:text-[90px] text-[60px] text-(--gray-20) font-bold uppercase tracking-wider leading-none'>Experience</h1>
             </div>
 
             <div>
                 {COMMON_DATA.map((item, index) => (
-                    <div key={index} className='flex justify-between items-start my-6'>
+                    <div key={index} className='flex justify-between items-start my-6 cursor-pointer'>
                         <div className='flex flex-col gap-2'>
                             <h2 className='text-2xl font-semibold'>{item.organization}</h2>
                             <p className='text-sm'>{item.description}</p>

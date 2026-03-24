@@ -2,8 +2,15 @@ import React from "react";
 import Input from "../components/Input";
 import TextArea from "../components/TextArea";
 import PrimaryButton from "../components/PrimaryButton";
+import { useState } from "react";
 
 export default function ContactMe() {
+  const [contactObj, setContactObj] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  
   return (
     <React.Fragment>
       <div id="contact">
@@ -16,11 +23,11 @@ export default function ContactMe() {
       </div>
 
       <div>
-        <Input id="name" label="Name" placeholder="Your Name" />
+        <Input id="name" label="Name" placeholder="Your Name" value={contactObj.name} onChange={(e) => setContactObj({...contactObj, name: e.target.value})} />
 
-        <Input id="email" label="Email" placeholder="Your Email" />
+        <Input id="email" label="Email" placeholder="Your Email" value={contactObj.email} onChange={(e) => setContactObj({...contactObj, email: e.target.value})} />
 
-        <TextArea id="message" label="Message" placeholder="Your Message" />
+        <TextArea id="message" label="Message" placeholder="Your Message" value={contactObj.message} onChange={(e) => setContactObj({...contactObj, message: e.target.value})} />
         
         <PrimaryButton width="w-full" text="Send Message" />
       </div>
