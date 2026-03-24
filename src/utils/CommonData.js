@@ -133,5 +133,12 @@ export const PROJECTS_DATA = {
         "In-house Dashboard is a comprehensive management information system for ShilpMIS Technologies Pvt. Ltd. It helps the company to manage their projects, clients, and employees.",
       link: "https://www.google.com",
     },
+    {
+      organization: "ShilpMIS Technologies Pvt. Ltd.",
+      title: "Real Estate microsite",
+      description:
+        "Real Estate microsite is a platform for real estate companies to showcase their properties and manage their clients.",
+      link: "https://www.google.com",
+    },
   ],
 };

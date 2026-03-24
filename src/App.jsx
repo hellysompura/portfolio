@@ -2,6 +2,8 @@ import './App.css'
 import Header from './pages/Header'
 import Introduction from './pages/Introduction'
 import Layout from './components/Layout'
+import { Routes, Route } from 'react-router-dom'
+import DetailedExperience from './pages/DetailedExperience'
 
 function App() {
   return (
@@ -15,7 +17,10 @@ function App() {
         </div>
 
         <div id='layout-container' className='md:m-3 lg:m-3 h-[calc(100vh-100px)] overflow-y-auto'>
-          <Layout />
+          <Routes>
+            <Route path="/" element={<Layout />} />
+            <Route path="/experience" element={<DetailedExperience />} />
+          </Routes>
         </div>
 
       </div>
