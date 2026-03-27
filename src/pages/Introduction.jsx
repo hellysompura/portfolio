@@ -1,4 +1,4 @@
-import helly from '../assets/helly.png'
+import helly from '../assets/Helly.png'
 import LinkedIn from '../assets/LinkedIn.svg'
 import GitHub from '../assets/GitHub.svg'
 
