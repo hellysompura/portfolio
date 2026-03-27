@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-xxl: 1536px;
+  --breakpoint-xxxl: 1920px;
+}
+
 :root {
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
@@ -21,6 +31,10 @@
   --gray-30: #b6b4bd4d;
   --gray-40: #b6b4bd66;
   --gray-50: #b6b4bd80;
+  --gray-60: #b6b4bd99;
+  --gray-70: #b6b4bdcc;
+  --gray-80: #b6b4bddd;
+  --gray-90: #b6b4bdee;
 
   /* orange */
   --orange: #cf5525;

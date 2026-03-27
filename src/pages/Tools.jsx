@@ -5,8 +5,8 @@ export default function Tools() {
     return (
         <React.Fragment>
             <div id='skills'>
-                <h1 className='lg:text-[90px] text-[60px] font-bold uppercase tracking-wider leading-none'>Tools</h1>
-                <h1 className='lg:text-[90px] text-[60px] text-(--gray-20) font-bold uppercase tracking-wider leading-none'>I Use</h1>
+                <h1 className='lg:text-[90px] md:text-[60px] text-[50px] font-bold uppercase tracking-wider leading-none'>Tools</h1>
+                <h1 className='lg:text-[90px] md:text-[60px] text-[50px] text-(--gray-20) font-bold uppercase tracking-wider leading-none'>I Use</h1>
             </div>
             <div className='grid lg:grid-cols-3 grid-cols-2 gap-4'>
                 {TOOLS_DATA.map((tool, index) => (

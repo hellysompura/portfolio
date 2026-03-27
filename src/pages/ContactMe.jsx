@@ -14,10 +14,10 @@ export default function ContactMe() {
   return (
     <React.Fragment>
       <div id="contact">
-        <h1 className="lg:text-[90px] text-[60px] font-bold uppercase tracking-wider leading-none">
+        <h1 className="lg:text-[90px] md:text-[60px] text-[50px] font-bold uppercase tracking-wider leading-none">
           let's
         </h1>
-        <h1 className="lg:text-[90px] text-[60px] text-(--gray-20) font-bold uppercase tracking-wider leading-none">
+        <h1 className="lg:text-[90px] md:text-[60px] text-[50px] text-(--gray-20) font-bold uppercase tracking-wider leading-none">
           connect
         </h1>
       </div>

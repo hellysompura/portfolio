@@ -6,10 +6,10 @@ export default function Blogs() {
   return (
     <React.Fragment>
       <div>
-        <h1 className="lg:text-[90px] text-[60px] font-bold uppercase tracking-wider leading-none">
+        <h1 className="lg:text-[90px] md:text-[60px] text-[50px] font-bold uppercase tracking-wider leading-none">
           Honest
         </h1>
-        <h1 className="lg:text-[90px] text-[60px] text-(--gray-20) font-bold uppercase tracking-wider leading-none">
+        <h1 className="lg:text-[90px] md:text-[60px] text-[50px] text-(--gray-20) font-bold uppercase tracking-wider leading-none">
           Opinions
         </h1>
       </div>
@@ -23,7 +23,7 @@ export default function Blogs() {
           >
             <div className="flex-1">
               <h2 className="text-2xl font-semibold">{blog.title}</h2>
-              <p className="text-sm">{blog.description}</p>
+              <p className="text-sm text-(--gray-70)">{blog.description}</p>
             </div>
 
             <div>
