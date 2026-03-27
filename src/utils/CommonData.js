@@ -99,8 +99,11 @@ export const PROJECTS_DATA = {
     {
       organization: "Greenlab Diamonds LLP",
       title: "LABON",
-      description:
+      description: [
         "Labon is a platform for USA jewelry sellers to order, customize, and manage their jewelry products.",
+        "It is a e-commerce platform that has live diamond pricing and inventory management system.",
+      ],
+      tools: ["React", "NodeJS", "Express.js", "MongoDB"],
       link: "https://www.google.com",
     },
   ],
@@ -109,8 +112,10 @@ export const PROJECTS_DATA = {
     {
       organization: "WebOsmotic Technologies Pvt. Ltd.",
       title: "Customa - The Customizable virtual chatbot",
-      description:
+      description: [
         "Customa is a customizable virtual chatbot that can be used third party user to upload their data and create a custom chatbot to put in their website.",
+      ],
+      tools: ["React", "NodeJS", "Express.js", "MongoDB"],
       link: "https://www.google.com",
     },
   ],
@@ -119,8 +124,12 @@ export const PROJECTS_DATA = {
     {
       organization: "Finlogic Technologies India Pvt. Ltd.",
       title: "CRM",
-      description:
-        "Finlogic is a financial technology company that provides financial services to small and medium-sized businesses. I have worked on developing a CRM system for them. My main responsibility was to develop the Meeting module where users can schedule meetings with their clients.",
+      description: [
+        "Finlogic is a financial technology company that provides financial services to small and medium-sized businesses. ",
+        "I have worked on developing a CRM system for them.",
+        "My main responsibility was to develop the Meeting module where users can schedule meetings with their clients.",
+      ],
+      tools: ["React", "MySQL"],
       link: "https://www.google.com",
     },
   ],
@@ -129,15 +138,22 @@ export const PROJECTS_DATA = {
     {
       organization: "ShilpMIS Technologies Pvt. Ltd.",
       title: "In-house Dashboard",
-      description:
+      description: [
         "In-house Dashboard is a comprehensive management information system for ShilpMIS Technologies Pvt. Ltd. It helps the company to manage their projects, clients, and employees.",
+        "The dashboard consists of multiple modules like Project Management, Client Management, Employee Management, etc.",
+        "The dashboard has HR modules like Payroll, Attendance, Leave Management, etc.",
+      ],
+      tools: ["React", "NodeJS", "Express.js", "MySQL"],
       link: "https://www.google.com",
     },
     {
       organization: "ShilpMIS Technologies Pvt. Ltd.",
-      title: "Real Estate microsite",
-      description:
-        "Real Estate microsite is a platform for real estate companies to showcase their properties and manage their clients.",
+      title: "Real Estate Microsite",
+      description: [
+        "Real Estate Microsite is a platform for real estate companies to showcase their properties and manage their clients.",
+        "The microsite was built to become no-scroll, multi-page experience. So that the Real Estate companies can showcase their properties in a more engaging way.",
+      ],
+      tools: ["React", "NodeJS", "Express.js", "MySQL"],
       link: "https://www.google.com",
     },
   ],

@@ -22,7 +22,20 @@ export default function DetailedExperience() {
             >
               <div>
                 <h2 className="text-2xl font-semibold">{project.title}</h2>
-                <p className="text-sm">{project.description}</p>
+                <div className="text-[15px]">
+                  <ul className="list-disc list-inside text-left">
+                    {project.description.map((desc, index) => (
+                      <li key={index} className="mb-2">{desc}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="flex items-center gap-2.5">
+                  <div className="text-[15px] font-semibold">Tools used:</div>
+                  <div className="text-[15px]">
+                    {project.tools.join(", ")}
+                  </div>
+                </div>
               </div>
 
               <div>
