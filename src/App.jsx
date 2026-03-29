@@ -12,14 +12,14 @@ function App() {
         <Header />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-[1fr_2fr] gap-5 h-[90vh] lg:h-auto overflow-y-auto lg:overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-[1fr_2fr] gap-5 h-[85vh] overflow-y-auto lg:h-[calc(100vh-6rem)]  lg:overflow-hidden">
         <div className="flex justify-center items-start md:m-3 lg:m-3">
           <Introduction />
         </div>
 
         <div
           id="layout-container"
-          className="md:m-3 lg:m-3 mb-5 lg:h-[calc(100vh-100px)] h-[80vh] lg:overflow-y-auto"
+          className="md:m-3 lg:m-3 mb-5 lg:h-full lg:overflow-y-auto"
         >
           <Routes>
             <Route path="/" element={<Layout />} />
