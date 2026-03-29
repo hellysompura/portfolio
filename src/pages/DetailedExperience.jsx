@@ -25,16 +25,16 @@ export default function DetailedExperience() {
                 <div className="text-[15px]">
                   <ul className="list-disc list-inside text-left">
                     {project.description.map((desc, index) => (
-                      <li key={index} className="mb-2">{desc}</li>
+                      <li key={index} className="mb-2">
+                        {desc}
+                      </li>
                     ))}
                   </ul>
                 </div>
 
-                <div className="flex items-center gap-2.5">
+                <div className="flex lg:flex-row flex-col justify-start items-start lg:items-center gap-2.5">
                   <div className="text-[15px] font-semibold">Tools used:</div>
-                  <div className="text-[15px]">
-                    {project.tools.join(", ")}
-                  </div>
+                  <div className="text-[15px]">{project.tools.join(", ")}</div>
                 </div>
               </div>
 
