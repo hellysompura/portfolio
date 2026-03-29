@@ -12,7 +12,7 @@ function App() {
         <Header />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-[1fr_2fr] gap-5 h-[85vh] overflow-y-auto lg:h-[calc(100vh-6rem)]  lg:overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-[1fr_2fr] gap-5 h-[85vh] overflow-y-auto lg:h-[calc(100dvh-6rem)]  lg:overflow-hidden">
         <div className="flex justify-center items-start md:m-3 lg:m-3">
           <Introduction />
         </div>
