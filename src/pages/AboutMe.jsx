@@ -4,8 +4,8 @@ export default function AboutMe() {
     return (
         <React.Fragment>
             <div id='aboutMe'>
-                <h1 className='lg:text-[90px] md:text-[70px] text-[50px] font-bold uppercase tracking-wider leading-none'>Full Stack</h1>
-                <h1 className='lg:text-[90px] md:text-[70px] text-[50px] text-(--gray-20) font-bold uppercase tracking-wider leading-none'>Developer</h1>
+                <h1 className='lg:text-[90px] md:text-[70px] text-[48px] font-bold uppercase tracking-wider leading-none'>Full Stack</h1>
+                <h1 className='lg:text-[90px] md:text-[70px] text-[48px] text-(--gray-20) font-bold uppercase tracking-wider leading-none'>Developer</h1>
             </div>
 
             <div>

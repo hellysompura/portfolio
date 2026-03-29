@@ -19,10 +19,10 @@ export default function Experience() {
   return (
     <React.Fragment>
       <div id="experience">
-        <h1 className="lg:text-[90px] md:text-[60px] text-[50px] font-bold uppercase tracking-wider leading-none">
+        <h1 className="lg:text-[90px] md:text-[60px] text-[48px] font-bold uppercase tracking-wider leading-none">
           5 years of
         </h1>
-        <h1 className="lg:text-[90px] md:text-[60px] text-[50px] text-(--gray-20) font-bold uppercase tracking-wider leading-none">
+        <h1 className="lg:text-[90px] md:text-[60px] text-[48px] text-(--gray-20) font-bold uppercase tracking-wider leading-none">
           Experience
         </h1>
       </div>
